@@ -10,7 +10,7 @@
 .background{
     width: 100%;
     height: 100vh;
-    background-image: url("");
+    background-image: url("../img/background.jpg");
     background-size: 100vw;
     overflow-x: hidden;
     position: absolute;
@@ -19,7 +19,7 @@
 .background2{
     width: 100%;
     height: 100vh;
-    background-image: url("s");
+    background-image: url("../img/back.jpg");
     background-size: 100%;
 }
 .player{
@@ -39,14 +39,14 @@
     width: 112px;
     height: 111px;
     margin-top: 550px;
-    background-image: url("b");
+    background-image: url("../img/2 img.jpg");
     background-size: cover;
 }
 .GameOver{
     position: absolute;
     width: 100px;
     height: 100vh;
-    background-image: url("");
+    background-image: url("../img/img1.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -58,4 +58,61 @@
     font-size: 90px;
     opacity: 0.8;
     visibility: hidden;
+}
+.btn{
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 100px;
+    font-family: Arial;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(255,255,255);
+    position: relative;
+    background: rgb(6,37,50);
+    box-shadow: 0 0 10px yellow, 0 0 40px rebeccapurple, 0 0 80px blue;
+}
+.btn2{
+    width: 150px;
+    height: 40px;
+    color: rgb( 90,70,20);
+    font-family: Consolas;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 40px;
+    margin-top: 420px;
+    margin-left: 400px;
+    position: relative;
+    background: springgreen;
+    box-shadow:0 0 10px darkolivegreen, 0 0 40px lawngreen, 0 0 80px cornflowerblue;
+}
+.bg{
+    width: 100%;
+    height:100vh ;
+    position:absolute ;
+    background-image: url("../img/03.jpg");
+    background-size: cover;
+}
+
+.a{
+    font-size: 20px;
+    margin-left: 654px;
+    margin-top: -300px;
+    font-family: Arial;
+    font-weight: 700;
+    position: absolute;
+    background-color: rgb(90,20,0);
+}
+.b{
+    font-size: 16px;
+    margin-left: 630px;
+    margin-top: -290px;
+    font-family: Arial;
+    font-weight: 700;
+    position: absolute;
+    background-color: rgb(900,0,90);
 }
