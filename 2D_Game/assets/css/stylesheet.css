@@ -1,4 +1,9 @@
-*{
-    position: relative;
-
+::-webkit-scrollbar{
+    width: 0;
+}
+.body{
+    margin: 0px;
+}
+.body2{
+    margin: 0px;
 }
