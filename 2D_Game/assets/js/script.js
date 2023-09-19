@@ -30,4 +30,8 @@ function Start (evevt){
             }
         }
     }
+
+    //Run Function
+   var player=document.getElementById();
+
 }
