@@ -32,6 +32,8 @@ function Start (evevt){
     }
 
     //Run Function
-   var player=document.getElementById();
+   var player=document.getElementById("player");
+    var runImageNumber =1;
+
 
 }
