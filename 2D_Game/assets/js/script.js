@@ -34,6 +34,19 @@ function Start (evevt){
     //Run Function
    var player=document.getElementById("player");
     var runImageNumber =1;
-
+    var runWorkerId =0;
+    var sound= new Audio("run.mp");
+    var sound = new Audio("");
+    var runSound =new Audio('run.mp');
+    var snowSound = new Audio("");
+    runSound.loop  = true;
+    
+   function run(){
+       runImageNumber++;
+       if (runImageNumber == 9){
+           runImageNumber = 1;
+       }
+       player.src ="Run ("+runImageNumber+").png";
+   }
 
 }
