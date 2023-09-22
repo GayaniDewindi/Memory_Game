@@ -51,4 +51,5 @@ function Start (evevt){
 
    //Jump function
 
+        var jumpImgeNumber = 1;
 }
