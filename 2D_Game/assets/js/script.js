@@ -49,4 +49,6 @@ function Start (evevt){
        player.src ="Run ("+runImageNumber+").png";
    }
 
+   //Jump function
+
 }
