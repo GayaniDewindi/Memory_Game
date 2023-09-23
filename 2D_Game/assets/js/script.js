@@ -52,4 +52,7 @@ function Start (evevt){
    //Jump function
 
         var jumpImgeNumber = 1;
+        var jumpWorkId =0;
+        var playerMarginTop = 400;
+
 }
