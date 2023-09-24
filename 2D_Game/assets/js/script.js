@@ -55,4 +55,11 @@ function Start (evevt){
         var jumpWorkId =0;
         var playerMarginTop = 400;
 
+        var playerMarginTop = 400;
+        var jumpSound = new Audio("jump.mp3");
+        function jump(){
+            jumpImgeNumber ++;
+            // 2-7 jump Images
+        }
+
 }
