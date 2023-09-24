@@ -59,7 +59,15 @@ function Start (evevt){
         var jumpSound = new Audio("jump.mp3");
         function jump(){
             jumpImgeNumber ++;
+
             // 2-7 jump Images
+
+            if(jumpImgeNumber <=7){
+                playerMarginTop = playerMarginTop - 40;
+                player.style.marginTop = playerMarginTop +"px";
+            }
+
+            // 8-13 jump images
         }
 
 }
