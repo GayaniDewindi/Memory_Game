@@ -68,6 +68,7 @@ function Start (evevt){
             }
 
             // 8-13 jump images
+            if(jumpImgeNumber >=8){}
         }
 
 }
