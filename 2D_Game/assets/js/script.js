@@ -68,7 +68,10 @@ function Start (evevt){
             }
 
             // 8-13 jump images
-            if(jumpImgeNumber >=8){}
+            if(jumpImgeNumber >=8){
+                playerMarginTop = playerMarginTop + 40;
+                player.style.marginTop = playerMarginTop +"px";
+            }
         }
 
 }
