@@ -72,6 +72,13 @@ function Start (evevt){
                 playerMarginTop = playerMarginTop + 40;
                 player.style.marginTop = playerMarginTop +"px";
             }
+
+            if (jumpImgeNumber== 13){
+                jumpImgeNumber =1;
+                clearInterval(jumpWorkerId);
+                jumpWorkerId =0;
+
+            }
         }
 
 }
