@@ -78,7 +78,10 @@ function Start (evevt){
                 clearInterval(jumpWorkerId);
                 jumpWorkerId =0;
 
+                runWorkerId =setInterval(run ,100);
+                runSound.play();
             }
+            player.src="jump( "+jumpImgeNumber +").png";
         }
 
 }
