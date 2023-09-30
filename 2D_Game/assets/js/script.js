@@ -92,4 +92,14 @@ function Start (evevt){
             backgroundDx =backgroundDx - 20;
             background.style.backgroundPositionX +"px";
         }
+
+        // score function
+        var score =document.getElementById("score");
+        var scoreValue= 0;
+        var scoreWorkerId = 0;
+
+        function updateScore(){
+            scoreValue = scoreValue + 5;
+            score.innerHTML = scoreValue;
+        }
 }
