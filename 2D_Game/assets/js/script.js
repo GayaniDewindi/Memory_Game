@@ -102,4 +102,22 @@ function Start (evevt){
             scoreValue = scoreValue + 5;
             score.innerHTML = scoreValue;
         }
+
+        //creat obstacles
+        var blockWorkerId =0;
+        var blockMarginLeft =600;
+        var blockId=1;
+
+        function createBlock(){
+            var block = document.createElement("div");
+            block.className ="block";
+            block.id ="block"+blockId;
+            blockId++;
+
+            var gap =Math.random() * (1000 - 400)+400;
+            blockMarginLeft = blockMarginLeft + gap;
+            block.style.marginLeft = blockMarginLeft +"px";
+
+            background.appendChild(block);
+        }
 }
