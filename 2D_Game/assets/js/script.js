@@ -83,5 +83,13 @@ function Start (evevt){
             }
             player.src="jump( "+jumpImgeNumber +").png";
         }
+// background move function
+        var background =document.getElementById("background");
+        backgroundDx =0;
+        backgroundWorkeId =0;
 
+        function moveBackground(){
+            backgroundDx =backgroundDx - 20;
+            background.style.backgroundPositionX +"px";
+        }
 }
