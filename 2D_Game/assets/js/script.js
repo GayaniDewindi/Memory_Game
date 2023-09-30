@@ -120,4 +120,39 @@ function Start (evevt){
 
             background.appendChild(block);
         }
+
+        // move obstacles
+
+        var moveBlockWorkerId =0;
+
+        function moveBlocks(){
+            for (var i=1;i<=blockId;i++){
+                var currentBlock=document.getElementById("block"+i++);
+                var currentMarginLeft=currentBlock.style.marginLeft;
+                var newMarginLeft=parseInt(currentMarginLeft)-20;
+                currentBlock.style.marginLeft=newMarginLeft + "px";
+                if (newMarginLeft<=173){
+                    if (newMarginLeft>=58){
+                        if (playerMarginTop>=400){
+                            if (playerMarginTop>=200){
+                                clearInterval(runWorkerId);
+                                runSound.pause();
+                                clearInterval(jumpWorkerId);
+                                jumpWorkerId=-1;
+                                clearInterval(backgroundWorkeId);
+                                clearInterval(scoreWorkerId);
+                                clearInterval(blockWorkerId);
+                                clearInterval(moveBlockWorkerId);
+
+                                deadWorkerId = setInterval(dead, 100);
+                                deadSound.play();
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+
 }
